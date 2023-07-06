@@ -48,6 +48,7 @@ runs:
       shell: bash
       run: |
         npm i -g @sap/cds-dk
+        npm i
         tag="tag$(date +%s)"
         
         participantID=<your-participant-id>
